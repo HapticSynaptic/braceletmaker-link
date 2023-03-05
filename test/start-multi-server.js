@@ -1,8 +1,8 @@
-const OpenBlockLink = require('../src/index');
+const BraceletMakerLink = require('../src/index');
 
-const link1 = new OpenBlockLink();
-const link2 = new OpenBlockLink();
-const link3 = new OpenBlockLink();
+const link1 = new BraceletMakerLink();
+const link2 = new BraceletMakerLink();
+const link3 = new BraceletMakerLink();
 
 link1.on('ready', () => {
     console.info('link1: Server is ready.');

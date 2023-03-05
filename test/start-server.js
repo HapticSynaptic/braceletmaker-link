@@ -1,6 +1,6 @@
-const OpenBlockLink = require('../src/index');
+const BraceletMakerLink = require('../src/index');
 
-const link = new OpenBlockLink();
+const link = new BraceletMakerLink();
 link.listen();
 
 link.on('ready', () => {

@@ -1,7 +1,9 @@
 {
-  "name": "openblock-link",
-  "version": "0.2.0",
-  "description": "Porvide local hardware function to openblock",
+  "name": "@hapticsynaptic/braceletmaker-link",
+  "description": "Provide local hardware function to Bracelet Maker",
+  "author": "Haptic Synaptic",
+  "version": "1.7.0",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "fetch": "rimraf tools firmwares && node script/download-tools.js && node script/download-firmwares.js",
@@ -15,26 +17,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openblockcc/openblock-link.git"
+    "url": "git+https://github.com/HapticSynaptic/braceletmaker-link.git"
   },
   "keywords": [
-    "openblock",
+    "braceletmaker",
     "link",
     "microbit",
     "arduino",
     "nodejs",
     "scratch3.0",
-    "ble",
     "serialport"
   ],
-  "author": "OpenBlock Team",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openblockcc/openblock-link/issues"
+    "url": "https://github.com/HapticSynaptic/braceletmaker-link/issues"
   },
-  "homepage": "https://github.com/openblockcc/openblock-link#readme",
+  "homepage": "https://github.com/HapticSynaptic/braceletmaker-link#readme",
   "dependencies": {
-    "@abandonware/noble": "^1.9.2-10",
     "ansi-string": "^0.2.1",
     "cli-color": "^2.0.1",
     "download-github-release": "^0.3.2",
