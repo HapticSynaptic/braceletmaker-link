@@ -2,7 +2,7 @@
   "name": "@hapticsynaptic/braceletmaker-link",
   "description": "Provide local hardware function to Bracelet Maker",
   "author": "Haptic Synaptic",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
